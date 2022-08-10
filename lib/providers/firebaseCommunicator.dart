@@ -115,6 +115,8 @@ class FirebaseCommunicator with ChangeNotifier {
     _token = null;
     _userId = null;
     _expiryDate = null;
+    cachedData = null;
+    cachedUserData = null;
 
     if(_authTimer != null){
       _authTimer.cancel();
