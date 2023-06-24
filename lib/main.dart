@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
                         decoration: TextDecoration.underline
                     ),
                     subtitle1: TextStyle(
-                      fontSize: 13,
+                      fontSize: 14,
                     ),
                   )
               ),
