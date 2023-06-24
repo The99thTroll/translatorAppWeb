@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
             }
           )
         ],
-        title: Text("Text Translator: ${
+        title: Text(" Text Translator: ${
             canticle.loadedName.isNotEmpty
             ? canticle.loadedName
             : "${canticle.currentCanticle} - ${canticle.currentCanto}"
